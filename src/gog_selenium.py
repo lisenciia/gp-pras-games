@@ -13,6 +13,7 @@ import os
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from tenacity import retry, stop_after_attempt, wait_fixed
 from tqdm import tqdm
+import json
 
 logging.config.fileConfig("config/logging_config.ini")
 logger=logging.getLogger(__name__)
@@ -92,7 +93,6 @@ def scrape_game(url):
         developer=""
         script_tag= soup.find("script", type="application/ld+json")
         if script_tag:
-            import json
             try:
                 data= json.loads(script_tag.string)
                 offers= data.get("offers", [])
