@@ -76,7 +76,7 @@ docs/_build/
 target/
 
 # Jupyter Notebook
-.ipynb_checkpoints
+#.ipynb_checkpoints
 
 # IPython
 profile_default/
@@ -207,7 +207,7 @@ __marimo__/
 
 # Data & logs
 data/raw/
+data/Processed
 logs/*.log
-.csv
+
 .DS_Store
-requirements.txt
