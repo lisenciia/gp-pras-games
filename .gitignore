@@ -208,3 +208,6 @@ __marimo__/
 # Data & logs
 data/raw/
 logs/*.log
+.csv
+.DS_Store
+requirements.txt
