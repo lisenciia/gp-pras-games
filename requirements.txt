@@ -3,3 +3,6 @@ webdriver-manager
 beautifulsoup4
 tenacity
 tqdm
+requests
+dotenv
+pandas
