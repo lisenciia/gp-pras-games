@@ -205,5 +205,6 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
-data/
-logs/
+# Data & logs
+data/raw/
+logs/*.log

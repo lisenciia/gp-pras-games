@@ -1,0 +1,6 @@
+requests
+dotenv
+pandas
+time
+os
+logging
