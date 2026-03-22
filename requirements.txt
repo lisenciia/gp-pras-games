@@ -6,3 +6,5 @@ tqdm
 requests
 dotenv
 pandas
+matplotlib
+seaborn
