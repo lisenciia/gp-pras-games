@@ -64,18 +64,6 @@ def get_game_urls():
             time.sleep(5)
     return urls
 
-def restart_browser():
-    global browser
-    try:
-        browser.quit()
-    except:
-        pass
-    options=webdriver.ChromeOptions()
-    options.add_argument("--headless")
-    options.add_argument("--no-sandbox")
-    options.add_argument("--disable-dev-shm-usage")
-    browser = webdriver.Chrome(service=Service(ChromeDriverManager().install()),options=options)
-    logger.info("browser restarted successfully")
 
 @retry(stop=stop_after_attempt(3), wait=wait_fixed(5), reraise=True) 
 
@@ -168,10 +156,6 @@ logger.info(f"Urls found: {len(urls)}")
 
 logger.info("2:collecting data of games")
 ordered_results=[None]*len(urls)
-completed=0
-success=0
-failed=0
-start_time=time.time()
 with ThreadPoolExecutor(max_workers=6) as executor:
     future_to_index= {}
     for i, url in enumerate(urls):
