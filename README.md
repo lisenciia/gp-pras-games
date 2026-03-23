@@ -67,7 +67,7 @@ Fields collected from GOG:
 - URL
 
 The main idea of the merge is:
-- collect game data from stores/platforms
+- collect game data from stores/platforms (different audience)
 - normalize game names and other fields
 - enrich the base table with metadata from API and supplementary sources
 - prepare one final dataset for EDA
@@ -107,6 +107,8 @@ We used the following tools in the project:
 - tenacity
 - tqdm
 - webdriver-manager
+- matplotlib
+- seaborn
 
 Why these tools were used:
 - requests and BeautifulSoup are the main scraping/parsing tools required by the assignment
