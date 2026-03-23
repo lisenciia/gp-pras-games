@@ -1,0 +1,41 @@
+id,name,slug
+4,PC,pc
+187,PlayStation 5,playstation5
+1,Xbox One,xbox-one
+18,PlayStation 4,playstation4
+186,Xbox Series S/X,xbox-series-x
+7,Nintendo Switch,nintendo-switch
+3,iOS,ios
+21,Android,android
+8,Nintendo 3DS,nintendo-3ds
+9,Nintendo DS,nintendo-ds
+13,Nintendo DSi,nintendo-dsi
+5,macOS,macos
+6,Linux,linux
+14,Xbox 360,xbox360
+80,Xbox,xbox-old
+16,PlayStation 3,playstation3
+15,PlayStation 2,playstation2
+27,PlayStation,playstation1
+19,PS Vita,ps-vita
+17,PSP,psp
+10,Wii U,wii-u
+11,Wii,wii
+105,GameCube,gamecube
+83,Nintendo 64,nintendo-64
+24,Game Boy Advance,game-boy-advance
+43,Game Boy Color,game-boy-color
+26,Game Boy,game-boy
+79,SNES,snes
+49,NES,nes
+55,Classic Macintosh,macintosh
+41,Apple II,apple-ii
+166,Commodore / Amiga,commodore-amiga
+28,Atari 7800,atari-7800
+31,Atari 5200,atari-5200
+23,Atari 2600,atari-2600
+22,Atari Flashback,atari-flashback
+25,Atari 8-bit,atari-8-bit
+34,Atari ST,atari-st
+46,Atari Lynx,atari-lynx
+50,Atari XEGS,atari-xegs
