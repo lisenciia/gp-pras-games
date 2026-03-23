@@ -94,7 +94,10 @@ The current repository contains the following main parts:
 - data/raw/steam_games_dataset.csv — raw Steam scraping result
 - data/Processed/FULL_dataset_full.csv — full merged dataset
 - data/Processed/EDA_dataset.csv — final analytical dataset used in EDA
-- config/logging.cfg and config/logging_config.ini — logging configuration files
+- config/ — logging configuration files
+- logs/ — log output directory
+- requirements.txt — project dependencies
+- .gitignore — ignored temporary, system and local files
 
 ## Tools and Libraries
 We used the following tools in the project:
@@ -117,6 +120,7 @@ Why these tools were used:
 - logging was added for better monitoring and reproducibility
 - tenacity helps with retry logic
 - pandas is used to clean and save datasets
+- matplotlib and seaborn are used to build visualizations and support research data analysis
 
 ## API Collection
 The API part is based on RAWG API, this part of the project satisfies the requirement of using:
@@ -138,6 +142,7 @@ Output files created by the RAWG pipeline include:
 - rawg_genres.csv
 - rawg_platforms.csv
 - rawg_developers.csv
+Among these files, rawg_games.csv and rawg_reviews.csv are the main outputs, while rawg_genres.csv, rawg_platforms.csv and rawg_developers.csv are supporting reference tables used for addition.
 
 ## Scraping Collection
 The scraping side of the project is based on store/platform data
