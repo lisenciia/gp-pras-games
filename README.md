@@ -119,7 +119,7 @@ Why these tools were used:
 - dotenv keeps the API key out of the public code
 - logging was added for better monitoring and reproducibility
 - tenacity helps with retry logic
-- pandas is used to clean and save datasets
+- pandas is used to clean, merge and save datasets
 - matplotlib and seaborn are used to build visualizations and support research data analysis
 
 ## API Collection
